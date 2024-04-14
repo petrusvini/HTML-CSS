@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Videos em HTML5</title>
+</head>
+<body>
+    <h1>Inserindo Vídeos hospedado localmente</h1>
+    <p>Esse video está hospedado no meu próprio servidor.</p>
+    <video width="560" poster="imagens/praia-png.png" controls autoplay loop>
+        <source src="midia/Video-webm.webm" type="video/webm">
+        <source src="midia/video-mp4.mp4" type="video/mp4">
+        <source src="midia/video-ogv.ogv" type="video/ogv">
+        <source src="midia/video-m4v.m4v" type="video/m4v">
+        <p>Seu navegador não tem compatibilidade com reprodução de vídeos.</p>
+
+    </video>
+
+    <h1>Inserindo Vídeos do Youtube</h1>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/FdE5G95B7Mg?si=7VF0ppLga6_UKxml" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+    <h1>Inserindo Vídeos do Vimeo</h1>
+    <iframe src="https://player.vimeo.com/video/51513171?h=48b943bc6f&color=ff9933" width="560" height="382" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+</body>
+</html>
