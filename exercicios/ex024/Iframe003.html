@@ -11,9 +11,11 @@
         }
 
         iframe#tela{
-            width: 95vw;
+            width: 90vw;
             height: 400px;
             border: 2px solid black;
+            display: block;
+            margin: auto;
         }
     </style>
 </head>
@@ -29,7 +31,9 @@
 
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, sit labore. Est labore nobis qui eum architecto placeat eos blanditiis maiores commodi distinctio, alias perferendis quas sint suscipit sequi voluptatibus!</p>
 
-    <iframe id="tela" name="frame" src="">Infelizmente seu navegador não é compatível com isso.</iframe>
+    <iframe id="tela" name="frame" srcdoc="<h1> Escolha uma das opções acima</h1> <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, sit labore. Est labore nobis qui eum architecto placeat eos blanditiis maiores commodi distinctio, alias perferendis quas sint suscipit sequi voluptatibus!</p>">
+        <p>Infelizmente seu navegador não é compatível com isso.</p>
+    </iframe>
 
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum libero exercitationem eos quas ad aperiam vel repudiandae commodi blanditiis numquam officia quibusdam, minus necessitatibus doloribus? Eveniet fugiat omnis odio ipsam?</p>
 </body>
